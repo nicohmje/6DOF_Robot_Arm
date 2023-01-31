@@ -1,0 +1,44 @@
+[0.016s] Invoking command in '/home/john/robo_ws/build/nick_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/nick_bot -- -j6 -l6
+[0.045s] Invoked command in '/home/john/robo_ws/build/nick_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/nick_bot -- -j6 -l6
+[0.071s] Invoking command in '/home/john/robo_ws/build/nick_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/john/robo_ws/build/nick_bot
+[0.076s] -- Install configuration: ""
+[0.077s] -- Execute custom install script
+[0.077s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot.urdf.xacro
+[0.077s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot_control.xacro
+[0.078s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot_core.xacro
+[0.078s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/ros2_control.xacro
+[0.078s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/nickbot_controllers.yaml
+[0.078s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_sim.launch.py
+[0.078s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_simWORKING.launch.py
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/gazebo.launch.py
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/launch_sim.launch.py
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/moveit_setup.launch.py
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/rsp.launch.py
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/test.launch.py
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot.urdf
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot_MODIF.urdf
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot_moveit.urdf
+[0.079s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/takenout
+[0.080s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/base_link.STL
+[0.080s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/end_effector.STL
+[0.080s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_1.STL
+[0.080s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_2.STL
+[0.080s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_3.STL
+[0.080s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_4.STL
+[0.080s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_5.STL
+[0.080s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/package_run_dependencies/nick_bot
+[0.081s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/parent_prefix_path/nick_bot
+[0.081s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.dsv
+[0.081s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.sh
+[0.081s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.dsv
+[0.081s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.bash
+[0.082s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.sh
+[0.082s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.zsh
+[0.082s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.dsv
+[0.082s] -- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.dsv
+[0.088s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/packages/nick_bot
+[0.088s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig.cmake
+[0.089s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig-version.cmake
+[0.089s] -- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.xml
+[0.092s] Invoked command in '/home/john/robo_ws/build/nick_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/john/robo_ws/build/nick_bot
