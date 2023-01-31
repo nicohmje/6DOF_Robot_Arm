@@ -1,1 +1,0 @@
-/home/john/robo_ws/src/nick_bot_moveit_config/launch/setup_assistant.launch.py

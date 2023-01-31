@@ -1,1 +1,0 @@
-Invoking command in '/home/john/robo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/john/robo_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/gazebo_ros2_control

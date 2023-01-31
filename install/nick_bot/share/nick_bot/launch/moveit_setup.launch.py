@@ -1,1 +1,0 @@
-/home/john/robo_ws/src/nick_bot/launch/moveit_setup.launch.py

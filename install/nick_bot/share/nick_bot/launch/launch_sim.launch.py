@@ -1,1 +1,0 @@
-/home/john/robo_ws/src/nick_bot/launch/launch_sim.launch.py

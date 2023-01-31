@@ -1,1 +1,0 @@
-/home/john/robo_ws/build/nick_bot_moveit_config/ament_cmake_core/nick_bot_moveit_configConfig-version.cmake
