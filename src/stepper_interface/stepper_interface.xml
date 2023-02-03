@@ -1,6 +1,6 @@
 <library path="stepper_interface">
   <class name="stepper_interface/StepperInterface"
-         type="StepperInterface"
+         type="stepper_interface::StepperInterface"
          base_class_type="hardware_interface::SystemInterface">
     <description>
         Hardware Interface to control Steppers via an Arduino over Serial. 

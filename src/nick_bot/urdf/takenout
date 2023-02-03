@@ -1,7 +1,0 @@
-<gazebo>
-	<plugin name="gazebo_ros2_control"
-	filename="libgazebo_ros2_control.so">
-	<parameters>$(find nick_bot)/config/nickbot_controllers.yaml</parameters>
-	</plugin>
-  </gazebo>
-  

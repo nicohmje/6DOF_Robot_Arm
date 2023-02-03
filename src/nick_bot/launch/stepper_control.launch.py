@@ -20,6 +20,7 @@ from moveit_configs_utils import MoveItConfigsBuilder
 from moveit_configs_utils.launches import generate_move_group_launch
 
 
+
 def load_yaml(package_name, *paths):
     package_path = get_package_share_directory(package_name)
     absolute_file_path = os.path.join(package_path, *paths)
@@ -29,7 +30,6 @@ def load_yaml(package_name, *paths):
             return yaml.safe_load(file)
     except OSError:  # parent of IOError, OSError *and* WindowsError where available
         return None
-
 
 
 
@@ -81,7 +81,8 @@ def generate_launch_description():
                 ]
             ),
         ]
-    )  
+    )
+                    
     
     
     static_tf = Node(
@@ -108,7 +109,6 @@ def generate_launch_description():
         ]
     )
 
-
     rviz_base = os.path.join(get_package_share_directory("nick_bot"), "config")
     rviz_config = os.path.join(rviz_base, "moveit.rviz")
     rviz_node = Node(
@@ -123,6 +123,7 @@ def generate_launch_description():
             # ompl_planning_pipeline_config
         ]
     )
+    
 
     # Create a robot_state_publisher node
 
@@ -140,7 +141,7 @@ def generate_launch_description():
 
     robot_desc = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
 
-    controller_params = os.path.join(get_package_share_directory("nick_bot"), "config", "my_controllers.yaml")
+    controller_params = os.path.join(get_package_share_directory("nick_bot"), "config", "step_and_serv_controllers.yaml")
 
 
     controller_manager = Node(
@@ -161,22 +162,41 @@ def generate_launch_description():
 	    arguments=["joint_state_broadcaster"],
 	)
 
-    load_hand2 = Node(
+    load_servos2 = Node(
 		    package="controller_manager",
 		    executable="spawner",
-		    arguments=["hand_group_controller"],
+		    arguments=["arm_group_servos_controller"],
 		)
-    load_arm2 = Node(
+    load_steppers2 = Node(
 		    package="controller_manager",
 		    executable="spawner",
-		    arguments=["arm_group_controller"],
+		    arguments=["arm_group_steppers_controller"],
 		)
     
 
     # Launch!
     return LaunchDescription([
+        RegisterEventHandler(
+            event_handler=OnProcessStart(
+                target_action=controller_manager,
+                on_start=[load_jsb2]
+            )
+        ),
+        RegisterEventHandler(
+            event_handler=OnProcessStart(
+                target_action=load_jsb2,
+                on_start=[load_servos2]
+            )
+        ),
+        RegisterEventHandler(
+            event_handler=OnProcessStart(
+                target_action=load_jsb2,
+                on_start=[load_steppers2]
+            )
+        ),
         node_robot_state_publisher,
         static_tf,
         move_group_node,
+        delay_c_m,
         rviz_node,
     ])

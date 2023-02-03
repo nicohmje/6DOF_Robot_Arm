@@ -6,8 +6,4 @@ initial_positions:
   joint_3: 0
   joint_4: 0
   joint_5: 0
-<<<<<<< HEAD
-  joint_6: 5
-=======
-  joint_6: -1.32996
->>>>>>> 76f5357f513dae2b293c3d1a1c9c614d014a98da
+  joint_6: 0

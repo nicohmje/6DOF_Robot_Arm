@@ -8,10 +8,10 @@
                 <!-- By default, set up controllers for simulation. This won't work on real hardware -->
                 <plugin>gazebo_ros2_control/GazeboSystem</plugin>
             </hardware>
-            <joint name="joint_6">
+            <joint name="joint_4">
                 <command_interface name="position"/>
                 <state_interface name="position">
-                  <param name="initial_value">${initial_positions['joint_6']}</param>
+                  <param name="initial_value">${initial_positions['joint_4']}</param>
                 </state_interface>
                 <state_interface name="velocity"/>
             </joint>
