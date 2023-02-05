@@ -1,0 +1,1 @@
+/home/john/robo_ws/src/nick_bot_moveit_config/launch/rsp.launch.py

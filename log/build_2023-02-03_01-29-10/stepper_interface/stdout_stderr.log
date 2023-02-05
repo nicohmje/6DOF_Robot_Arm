@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target stepper_interface[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:17[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:17[m[K:
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:[m[K In member function ‘[01m[Kdouble stepper_interface::StepperInterface::calcSteps(double, int)[m[K’:
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:207:101:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst char* std::type_info::name() const[m[K’
+  207 |     RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "input  %i, type %s.", angle, [01;31m[Ktypeid(angle).name[m[K);
+      |                                                                                       [01;31m[K~~~~~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:52[m[K,
+                 from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:5[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:17[m[K:
+[01m[K/usr/include/c++/11/typeinfo:99:17:[m[K [01;36m[Knote: [m[Kdeclared here
+   99 |     const char* [01;36m[Kname[m[K() const _GLIBCXX_NOEXCEPT
+      |                 [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:76: CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,9 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[31mCMake Error at CMakeLists.txt:20 (target_include_directories):
+  Cannot specify include directories for target "serial" which is not built
+  by this project.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/john/robo_ws/build/serial/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:321: cmake_check_build_system] Error 1

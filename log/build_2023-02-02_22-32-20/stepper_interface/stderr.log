@@ -1,0 +1,19 @@
+In file included from [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:17[m[K:
+[01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:30:32:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   30 |   std::vector<double> s_p_a = [[01;31m[K25[m[K, 25, 25];
+      |                                [01;31m[K^~[m[K
+[01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:30:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+   30 |   std::vector<double> s_p_a = [25[01;31m[K,[m[K 25, 25];
+      |                                  [01;31m[K^[m[K
+[01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:[m[K In lambda function:
+[01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:30:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:[m[K At global scope:
+[01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:30:34:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K<lambda closure object>Parameters::<lambda()>{}[m[K’ from ‘[01m[KParameters::<lambda()>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+   30 |   std::vector<double> s_p_a = [25[01;31m[K,[m[K 25, 25];
+      |                                  [01;31m[K^[m[K
+      |                                  [01;31m[K|[m[K
+      |                                  [01;31m[KParameters::<lambda()>[m[K
+[01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:30:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K,[m[K’ token
+gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:76: CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -141,7 +141,7 @@ def generate_launch_description():
 
     robot_desc = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
 
-    controller_params = os.path.join(get_package_share_directory("nick_bot"), "config", "my_controllers.yaml")
+    controller_params = os.path.join(get_package_share_directory("nick_bot"), "config", "step_and_serv_controllers.yaml")
 
 
     controller_manager = Node(
@@ -153,7 +153,7 @@ def generate_launch_description():
         ]
 	)
 
-    delay_c_m = TimerAction(period=3.0, actions=[controller_manager])
+    delay_c_m = TimerAction(period=1.0, actions=[controller_manager])
 
 
     load_jsb2 = Node(
@@ -165,12 +165,12 @@ def generate_launch_description():
     load_hand2 = Node(
 		    package="controller_manager",
 		    executable="spawner",
-		    arguments=["hand_group_controller"],
+		    arguments=["arm_group_steppers_controller"],
 		)
     load_arm2 = Node(
 		    package="controller_manager",
 		    executable="spawner",
-		    arguments=["arm_group_controller"],
+		    arguments=["arm_group_servos_controller"],
 		)
     
 
@@ -186,6 +186,12 @@ def generate_launch_description():
             event_handler=OnProcessStart(
                 target_action=load_jsb2,
                 on_start=[load_arm2]
+            )
+        ),
+        RegisterEventHandler(
+            event_handler=OnProcessStart(
+                target_action=load_arm2,
+                on_start=[load_hand2]
             )
         ),
         node_robot_state_publisher,

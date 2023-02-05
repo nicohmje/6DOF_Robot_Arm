@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target stepper_interface[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o[0m
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:[m[K In member function ‘[01m[Kdouble stepper_interface::StepperInterface::calcSteps(double, int)[m[K’:
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:208:26:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+  208 |     if (typeid(angle) != [01;31m[K<[m[Kdouble>)
+      |                          [01;31m[K^[m[K
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:208:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+  208 |     if (typeid(angle) != <[01;31m[Kdouble[m[K>)
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:208:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kdouble[m[K’
+  208 |     if [34m[K([m[Ktypeid(angle) != <[01;31m[Kd[m[K[32m[Kouble[m[K>)
+      |        [34m[K~[m[K                  [01;31m[K^[m[K[32m[K~~~~~[m[K
+      |                           [32m[K)[m[K
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:211:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+  211 |     }[01;31m[Ks[m[K
+      |      [01;31m[K^[m[K
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:213:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  213 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:76: CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

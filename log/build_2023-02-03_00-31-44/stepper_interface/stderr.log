@@ -1,0 +1,4 @@
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn stepper_interface::StepperInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:42:78:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::vector<int>::value_type[m[K’ {aka ‘[01m[Kint[m[K’} changes value from ‘[01m[K+QNaN[m[K’ to ‘[01m[K0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   42 |     steps_.resize(info_.joints.size(), [01;35m[Kstd::numeric_limits<double>::quiet_NaN()[m[K);
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K

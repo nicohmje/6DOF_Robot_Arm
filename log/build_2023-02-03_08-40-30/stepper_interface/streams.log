@@ -1,0 +1,35 @@
+[0.020s] Invoking command in '/home/john/robo_ws/build/stepper_interface': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/stepper_interface:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:/home/john/robo_ws/install/stepper_interface/lib:/home/john/robo_ws/install/gazebo_ros2_control/lib:/home/john/robo_ws/install/dynamixel_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/john/robo_ws/build/stepper_interface -- -j6 -l6
+[0.069s] [ 33%] [32mBuilding CXX object CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o[0m
+[3.031s] [ 66%] [32m[1mLinking CXX shared library libstepper_interface.so[0m
+[3.192s] [100%] Built target stepper_interface
+[3.201s] Invoked command in '/home/john/robo_ws/build/stepper_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/stepper_interface:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:/home/john/robo_ws/install/stepper_interface/lib:/home/john/robo_ws/install/gazebo_ros2_control/lib:/home/john/robo_ws/install/dynamixel_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/john/robo_ws/build/stepper_interface -- -j6 -l6
+[3.226s] Invoking command in '/home/john/robo_ws/build/stepper_interface': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/stepper_interface:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:/home/john/robo_ws/install/stepper_interface/lib:/home/john/robo_ws/install/gazebo_ros2_control/lib:/home/john/robo_ws/install/dynamixel_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/john/robo_ws/build/stepper_interface
+[3.232s] -- Install configuration: ""
+[3.233s] -- Execute custom install script
+[3.233s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface//stepper_interface.xml
+[3.233s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/lib/libstepper_interface.so
+[3.234s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/include/stepper_interface/arduino_comm.hpp
+[3.234s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/include/stepper_interface/stepper_interface.hpp
+[3.234s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/include/stepper_interface/visibility_control.h
+[3.234s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/library_path.sh
+[3.234s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/library_path.dsv
+[3.234s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/ament_index/resource_index/package_run_dependencies/stepper_interface
+[3.235s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/ament_index/resource_index/parent_prefix_path/stepper_interface
+[3.235s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/ament_prefix_path.sh
+[3.235s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/ament_prefix_path.dsv
+[3.235s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/path.sh
+[3.235s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/path.dsv
+[3.235s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/local_setup.bash
+[3.236s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/local_setup.sh
+[3.236s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/local_setup.zsh
+[3.236s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/local_setup.dsv
+[3.236s] -- Symlinking: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/package.dsv
+[3.243s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/ament_index/resource_index/packages/stepper_interface
+[3.243s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/stepper_interface
+[3.243s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.243s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.243s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.244s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/stepper_interfaceConfig.cmake
+[3.244s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/stepper_interfaceConfig-version.cmake
+[3.244s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/package.xml
+[3.247s] Invoked command in '/home/john/robo_ws/build/stepper_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/stepper_interface:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:/home/john/robo_ws/install/stepper_interface/lib:/home/john/robo_ws/install/gazebo_ros2_control/lib:/home/john/robo_ws/install/dynamixel_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/john/robo_ws/build/stepper_interface

@@ -1,0 +1,12 @@
+[01m[Kc++:[m[K [01;35m[Kwarning: [m[K&lt: linker input file unused because linking not done
+[01m[Kc++:[m[K [01;31m[Kerror: [m[K&lt: linker input file not found: No such file or directory
+[01m[Kc++:[m[K [01;35m[Kwarning: [m[KCXX_COMPILER_ID:GNU>:-Wno-missing-field-initializers: linker input file unused because linking not done
+[01m[Kc++:[m[K [01;31m[Kerror: [m[KCXX_COMPILER_ID:GNU>:-Wno-missing-field-initializers: linker input file not found: No such file or directory
+[01m[Kc++:[m[K [01;35m[Kwarning: [m[KCXX_COMPILER_ID:AppleClang>:-Wno-unknown-pragmas: linker input file unused because linking not done
+[01m[Kc++:[m[K [01;31m[Kerror: [m[KCXX_COMPILER_ID:AppleClang>:-Wno-unknown-pragmas: linker input file not found: No such file or directory
+[01m[Kc++:[m[K [01;35m[Kwarning: [m[KCXX_COMPILER_ID:Clang>:-Wno-unknown-pragmas: linker input file unused because linking not done
+[01m[Kc++:[m[K [01;31m[Kerror: [m[KCXX_COMPILER_ID:Clang>:-Wno-unknown-pragmas: linker input file not found: No such file or directory
+gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:76: CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o] Error 1
+gmake[2]: *** Deleting file 'CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o'
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

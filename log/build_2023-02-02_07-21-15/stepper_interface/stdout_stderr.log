@@ -1,0 +1,26 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found serial: 1.2.1 (/home/john/robo_ws/install/serial/share/serial/cmake)
+-- Found hardware_interface: 2.20.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found controller_manager: 2.20.0 (/opt/ros/humble/share/controller_manager/cmake)
+-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/robo_ws/build/stepper_interface
+[35m[1mConsolidate compiler generated dependencies of target stepper_interface[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libstepper_interface.so[0m
+/usr/bin/ld: /home/john/robo_ws/install/serial/lib/libserial.a(unix.cc.o): warning: relocation against `_ZTVN6serial15SerialExceptionE' in read-only section `.text._ZN6serial15SerialExceptionD2Ev[_ZN6serial15SerialExceptionD5Ev]'
+/usr/bin/ld: /home/john/robo_ws/install/serial/lib/libserial.a(serial.cc.o): relocation R_X86_64_PC32 against symbol `_ZTVN6serial6SerialE' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:318: libstepper_interface.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

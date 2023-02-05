@@ -1,0 +1,49 @@
+[0.006s] Invoking command in '/home/john/robo_ws/build/stepper_interface': AMENT_PREFIX_PATH=/home/john/robo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/john/robo_ws/src/stepper_interface -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/stepper_interface
+[0.055s] -- The C compiler identification is GNU 11.3.0
+[0.112s] -- The CXX compiler identification is GNU 11.3.0
+[0.118s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.773s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.853s] -- Found serial: 1.2.1 (/home/john/robo_ws/install/serial/share/serial/cmake)
+[0.855s] -- Found hardware_interface: 2.20.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.898s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.902s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.911s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.626s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.628s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.741s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.786s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.794s] -- Looking for pthread.h
+[1.875s] -- Looking for pthread.h - found
+[1.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.940s] -- Found Threads: TRUE  
+[2.096s] -- Found controller_manager: 2.20.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.003s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.064s] -- Configuring done
+[3.098s] -- Generating done
+[3.100s] -- Build files have been written to: /home/john/robo_ws/build/stepper_interface
+[3.110s] Invoked command in '/home/john/robo_ws/build/stepper_interface' returned '0': AMENT_PREFIX_PATH=/home/john/robo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/john/robo_ws/src/stepper_interface -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/stepper_interface
+[3.112s] Invoking command in '/home/john/robo_ws/build/stepper_interface': AMENT_PREFIX_PATH=/home/john/robo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/john/robo_ws/build/stepper_interface -- -j6 -l6
+[3.153s] [ 50%] [32mBuilding CXX object CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o[0m
+[6.295s] [100%] [32m[1mLinking CXX shared library libstepper_interface.so[0m
+[6.441s] /usr/bin/ld: /home/john/robo_ws/install/serial/lib/libserial.a(unix.cc.o): warning: relocation against `_ZTVN6serial15SerialExceptionE' in read-only section `.text._ZN6serial15SerialExceptionD2Ev[_ZN6serial15SerialExceptionD5Ev]'
+[6.454s] /usr/bin/ld: /home/john/robo_ws/install/serial/lib/libserial.a(serial.cc.o): relocation R_X86_64_PC32 against symbol `_ZTVN6serial6SerialE' can not be used when making a shared object; recompile with -fPIC
+[6.454s] /usr/bin/ld: final link failed: bad value
+[6.457s] collect2: error: ld returned 1 exit status
+[6.458s] gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:318: libstepper_interface.so] Error 1
+[6.458s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+[6.459s] gmake: *** [Makefile:146: all] Error 2
+[6.461s] Invoked command in '/home/john/robo_ws/build/stepper_interface' returned '2': AMENT_PREFIX_PATH=/home/john/robo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/john/robo_ws/build/stepper_interface -- -j6 -l6

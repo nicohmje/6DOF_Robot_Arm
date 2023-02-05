@@ -24,7 +24,7 @@
 
 struct Parameters
 {
-  std::string device = "/dev/ttyUSB0"; //sometimes ttyUSB1
+  std::string device = "/dev/ttyACM0"; //sometimes ttyUSB1
   int baud_rate = 1000000; //1 MHz
   int timeout = 1000; //ms
   std::vector<double> s_p_a;

@@ -1,0 +1,33 @@
+[0.028s] Invoking command in '/home/john/robo_ws/build/stepper_interface': AMENT_PREFIX_PATH=/home/john/robo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/john/robo_ws/build/stepper_interface -- -j6 -l6
+[0.076s] [100%] Built target stepper_interface
+[0.085s] Invoked command in '/home/john/robo_ws/build/stepper_interface' returned '0': AMENT_PREFIX_PATH=/home/john/robo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/john/robo_ws/build/stepper_interface -- -j6 -l6
+[0.106s] Invoking command in '/home/john/robo_ws/build/stepper_interface': AMENT_PREFIX_PATH=/home/john/robo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/john/robo_ws/build/stepper_interface
+[0.112s] -- Install configuration: ""
+[0.112s] -- Execute custom install script
+[0.112s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface//stepper_interface.xml
+[0.113s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/lib/libstepper_interface.so
+[0.113s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/include/stepper_interface/arduino_comm.hpp
+[0.113s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/include/stepper_interface/stepper_interface.hpp
+[0.113s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/include/stepper_interface/visibility_control.h
+[0.113s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/library_path.sh
+[0.113s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/library_path.dsv
+[0.113s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/ament_index/resource_index/package_run_dependencies/stepper_interface
+[0.114s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/ament_index/resource_index/parent_prefix_path/stepper_interface
+[0.114s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/ament_prefix_path.sh
+[0.114s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/ament_prefix_path.dsv
+[0.114s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/path.sh
+[0.114s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/environment/path.dsv
+[0.114s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/local_setup.bash
+[0.114s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/local_setup.sh
+[0.114s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/local_setup.zsh
+[0.115s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/local_setup.dsv
+[0.115s] -- Symlinking: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/package.dsv
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/ament_index/resource_index/packages/stepper_interface
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/stepper_interface
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/stepper_interfaceConfig.cmake
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/cmake/stepper_interfaceConfig-version.cmake
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/stepper_interface/share/stepper_interface/package.xml
+[0.126s] Invoked command in '/home/john/robo_ws/build/stepper_interface' returned '0': AMENT_PREFIX_PATH=/home/john/robo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/john/robo_ws/build/stepper_interface

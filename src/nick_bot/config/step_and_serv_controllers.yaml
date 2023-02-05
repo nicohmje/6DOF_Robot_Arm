@@ -13,15 +13,15 @@ controller_manager:
       type: joint_state_broadcaster/JointStateBroadcaster
 
 arm_group_steppers_controller:
-  ros__parameters:
-    joints:
-      - joint_1
-      - joint_2	
-      - joint_3
-    command_interfaces:
-      - position
-    state_interfaces:
-      - position
+ ros__parameters:
+   joints:
+     - joint_1
+     - joint_2	
+     - joint_3
+   command_interfaces:
+     - position
+   state_interfaces:
+     - position
       
 arm_group_servos_controller:
   ros__parameters:

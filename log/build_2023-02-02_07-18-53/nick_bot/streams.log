@@ -1,0 +1,78 @@
+[0.021s] Invoking command in '/home/john/robo_ws/build/nick_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/john/robo_ws/src/nick_bot -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/nick_bot
+[0.069s] -- The C compiler identification is GNU 11.3.0
+[0.128s] -- The CXX compiler identification is GNU 11.3.0
+[0.133s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.793s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.870s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.939s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.940s] -- Added test 'lint_cmake' to check CMake code style
+[0.941s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.943s] -- Added test 'xmllint' to check XML markup files
+[0.944s] -- Configuring done
+[0.946s] -- Generating done
+[0.947s] -- Build files have been written to: /home/john/robo_ws/build/nick_bot
+[0.952s] Invoked command in '/home/john/robo_ws/build/nick_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/john/robo_ws/src/nick_bot -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/nick_bot
+[0.952s] Invoking command in '/home/john/robo_ws/build/nick_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/nick_bot -- -j6 -l6
+[0.983s] Invoked command in '/home/john/robo_ws/build/nick_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/nick_bot -- -j6 -l6
+[1.016s] Invoking command in '/home/john/robo_ws/build/nick_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/john/robo_ws/build/nick_bot
+[1.021s] -- Install configuration: ""
+[1.022s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description
+[1.022s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot_core.xacro
+[1.022s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/ros2_controlGAZEBO.xacro
+[1.022s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot.urdf.xacro
+[1.022s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot_control.xacro
+[1.022s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/ros2_control.xacro
+[1.022s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/config
+[1.022s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/moveit.rviz
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/my_controllers.yaml
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/nickbot_controllers.yaml
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_simWORKING.launch.py
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/launch_sim.launch.py
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/real_robot.launch.py
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/raspberry.launch.py
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/test.launch.py
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/moveit_setup.launch.py
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/gazebo.launch.py
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_sim.launch.py
+[1.023s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/computer.launch.py
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/rsp.launch.py
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot.urdf
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/takenout
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot_moveit.urdf
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot_MODIF.urdf
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_2.STL
+[1.024s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_1.STL
+[1.025s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_3.STL
+[1.025s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_5.STL
+[1.026s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/base_link.STL
+[1.029s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/end_effector.STL
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_4.STL
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/package_run_dependencies/nick_bot
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/parent_prefix_path/nick_bot
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.sh
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.dsv
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.sh
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.dsv
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.bash
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.sh
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.zsh
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.dsv
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.dsv
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/packages/nick_bot
+[1.030s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig.cmake
+[1.031s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig-version.cmake
+[1.031s] -- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.xml
+[1.033s] Invoked command in '/home/john/robo_ws/build/nick_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/john/robo_ws/build/nick_bot

@@ -1,0 +1,19 @@
+[0.018s] Invoking command in '/home/john/robo_ws/build/stepper_interface': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/stepper_interface:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:/home/john/robo_ws/install/stepper_interface/lib:/home/john/robo_ws/install/gazebo_ros2_control/lib:/home/john/robo_ws/install/dynamixel_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/john/robo_ws/build/stepper_interface -- -j6 -l6
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target stepper_interface[0m
+[0.076s] [ 33%] [32mBuilding CXX object CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o[0m
+[2.064s] [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:[m[K In member function ‘[01m[Kdouble stepper_interface::StepperInterface::calcSteps(double, int)[m[K’:
+[2.065s] [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:208:15:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kdouble(const char*) noexcept[m[K’ to binary ‘[01m[Koperator==[m[K’
+[2.065s]   208 |     if ([32m[Kangle[m[K [01;31m[K==[m[K [34m[Knan[m[K)
+[2.065s]       |         [32m[K~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~[m[K
+[2.065s]       |         [32m[K|[m[K        [34m[K|[m[K
+[2.065s]       |         [32m[Kdouble[m[K   [34m[Kdouble(const char*) noexcept[m[K
+[2.068s] [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:211:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+[2.068s]   211 |     }[01;31m[Ks[m[K
+[2.068s]       |      [01;31m[K^[m[K
+[2.068s] [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:213:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.068s]   213 | [01;35m[K}[m[K
+[2.068s]       | [01;35m[K^[m[K
+[2.571s] gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:76: CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o] Error 1
+[2.571s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+[2.573s] gmake: *** [Makefile:146: all] Error 2
+[2.573s] Invoked command in '/home/john/robo_ws/build/stepper_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/stepper_interface:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware LD_LIBRARY_PATH=/home/john/robo_ws/install/serial/lib:/home/john/robo_ws/install/stepper_interface/lib:/home/john/robo_ws/install/gazebo_ros2_control/lib:/home/john/robo_ws/install/dynamixel_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/john/robo_ws/build/stepper_interface -- -j6 -l6

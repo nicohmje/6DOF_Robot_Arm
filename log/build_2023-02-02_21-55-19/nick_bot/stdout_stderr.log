@@ -1,0 +1,60 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/robo_ws/build/nick_bot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/Not in use/robot_control.xacro
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/Not in use/ros2_controlGAZEBO.xacro
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot.urdf.xacro
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot_core.xacro
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/ros2_control.xacro
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/moveit.rviz
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/my_controllers.yaml
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/nickbot_controllers.yaml
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/step_and_serv_controllers.yaml
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/stepper_controllers.yaml
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/computer.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_sim.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_simWORKING.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/gazebo.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/launch_sim.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/moveit_setup.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/raspberry.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/real_robot.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/rsp.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/stepper_control.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/test.launch.py
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/working_servo_control.zip
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot.urdf
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot_MODIF.urdf
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot_moveit.urdf
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/takenout
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/base_link.STL
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/end_effector.STL
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_1.STL
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_2.STL
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_3.STL
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_4.STL
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_5.STL
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/package_run_dependencies/nick_bot
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/parent_prefix_path/nick_bot
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.sh
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.sh
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.dsv
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.bash
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.sh
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.zsh
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.dsv
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.dsv
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/packages/nick_bot
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig.cmake
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig-version.cmake
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.xml

@@ -1,0 +1,26 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found serial: 1.2.1 (/home/john/robo_ws/install/serial/share/serial/cmake)
+-- Found hardware_interface: 2.20.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found controller_manager: 2.20.0 (/opt/ros/humble/share/controller_manager/cmake)
+-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/robo_ws/build/stepper_interface
+[35m[1mConsolidate compiler generated dependencies of target stepper_interface[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o[0m
+[01m[Kc++:[m[K [01;35m[Kwarning: [m[K&lt: linker input file unused because linking not done
+[01m[Kc++:[m[K [01;31m[Kerror: [m[K&lt: linker input file not found: No such file or directory
+[01m[Kc++:[m[K [01;35m[Kwarning: [m[KCXX_COMPILER_ID:GNU>:: linker input file unused because linking not done
+[01m[Kc++:[m[K [01;31m[Kerror: [m[KCXX_COMPILER_ID:GNU>:: linker input file not found: No such file or directory
+gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:76: CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o] Error 1
+gmake[2]: *** Deleting file 'CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o'
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

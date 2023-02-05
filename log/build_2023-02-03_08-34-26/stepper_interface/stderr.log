@@ -1,0 +1,38 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:17[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:17[m[K:
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn stepper_interface::StepperInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:103:64:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+  103 |     RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), [01;31m[Kparam_.device[m[K);
+      |                                                         [01;31m[K~~~~~~~^~~~~~[m[K
+      |                                                                [01;31m[K|[m[K
+      |                                                                [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/init.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/rcl.h:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:20[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/arduino_comm.hpp:5[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/include/stepper_interface/stepper_interface.hpp:8[m[K,
+                 from [01m[K/home/john/robo_ws/src/stepper_interface/src/stepper_interface.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  479 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:76: CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

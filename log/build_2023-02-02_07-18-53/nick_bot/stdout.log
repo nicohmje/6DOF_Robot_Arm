@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/robo_ws/build/nick_bot
+-- Install configuration: ""
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot_core.xacro
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/ros2_controlGAZEBO.xacro
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot.urdf.xacro
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot_control.xacro
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/ros2_control.xacro
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/config
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/moveit.rviz
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/my_controllers.yaml
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/nickbot_controllers.yaml
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_simWORKING.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/launch_sim.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/real_robot.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/raspberry.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/test.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/moveit_setup.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/gazebo.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_sim.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/computer.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/rsp.launch.py
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot.urdf
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/takenout
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot_moveit.urdf
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot_MODIF.urdf
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_2.STL
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_1.STL
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_3.STL
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_5.STL
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/base_link.STL
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/end_effector.STL
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_4.STL
+-- Installing: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/package_run_dependencies/nick_bot
+-- Installing: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/parent_prefix_path/nick_bot
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.sh
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.dsv
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.sh
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.dsv
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.bash
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.sh
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.zsh
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.dsv
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.dsv
+-- Installing: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/packages/nick_bot
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig.cmake
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig-version.cmake
+-- Installing: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.xml

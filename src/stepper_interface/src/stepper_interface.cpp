@@ -96,11 +96,12 @@ hardware_interface::CallbackReturn StepperInterface::on_configure(
 {
     RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "Configuring...");
 
-    param_.device = info_.hardware_parameters["device_port"];
+    param_.device = info_.hardware_parameters.at("device_port");
+
     param_.baud_rate = std::stoi(info_.hardware_parameters["baud_rate"]);
     param_.timeout = std::stoi(info_.hardware_parameters["timeout"]);
 
-    RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "Set device parameters...");
+    RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "Set device parameters... %s", param_.device.c_str());
 
 
     // info_.joints[1].name = "base";

@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target stepper_interface[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o[0m
+gmake[2]: *** [CMakeFiles/stepper_interface.dir/build.make:76: CMakeFiles/stepper_interface.dir/src/stepper_interface.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stepper_interface.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

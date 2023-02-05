@@ -1,0 +1,2 @@
+Invoking command in '/home/john/robo_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/serial -- -j6 -l6
+Invoked command in '/home/john/robo_ws/build/serial' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/serial -- -j6 -l6

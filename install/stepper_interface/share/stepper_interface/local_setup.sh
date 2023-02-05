@@ -1,0 +1,1 @@
+/home/john/robo_ws/build/stepper_interface/ament_cmake_environment_hooks/local_setup.sh

@@ -104,7 +104,7 @@ def generate_launch_description():
         [
             FindPackageShare("nick_bot"),
             "config",
-            "nickbot_controllers.yaml",
+            "step_and_serv_controllers.yaml",
         ]
     )
 
@@ -140,7 +140,7 @@ def generate_launch_description():
 
     robot_desc = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
 
-    controller_params = os.path.join(get_package_share_directory("nick_bot"), "config", "my_controllers.yaml")
+    controller_params = os.path.join(get_package_share_directory("nick_bot"), "config", "step_and_serv_controllers.yaml")
 
 
     controller_manager = Node(

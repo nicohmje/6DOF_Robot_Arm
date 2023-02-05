@@ -1,0 +1,50 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/Not in use/robot_control.xacro
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/Not in use/ros2_controlGAZEBO.xacro
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/OG/robot_core.xacro
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/robot_core.xacro
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/ros2_control (copy).xacro
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/description/ros2_control.xacro
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/moveit.rviz
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/my_controllers.yaml
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/nickbot_controllers.yaml
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/step_and_serv_controllers.yaml
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/config/stepper_controllers.yaml
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/computer.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_sim.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/full_launch_simWORKING.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/moveit_setup.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/raspberry.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/real_robot.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/rsp.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/stepper_control.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/test.launch.py
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/launch/working_servo_control.zip
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/nick_bot.urdf
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/urdf/urdf_old.zip
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/base_link.STL
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/end_effector.STL
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_1.STL
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_2.STL
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_3.STL
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_4.STL
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/meshes/link_5.STL
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/package_run_dependencies/nick_bot
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/parent_prefix_path/nick_bot
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.sh
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/environment/path.dsv
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.bash
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.sh
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.zsh
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/local_setup.dsv
+-- Symlinking: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.dsv
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/ament_index/resource_index/packages/nick_bot
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig.cmake
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/cmake/nick_botConfig-version.cmake
+-- Up-to-date symlink: /home/john/robo_ws/install/nick_bot/share/nick_bot/package.xml

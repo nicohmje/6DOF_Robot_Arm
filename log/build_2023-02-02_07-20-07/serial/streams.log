@@ -1,0 +1,53 @@
+[0.018s] Invoking command in '/home/john/robo_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/serial -- -j6 -l6
+[0.034s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.231s] -- Configuring done
+[0.235s] -- Generating done
+[0.236s] -- Build files have been written to: /home/john/robo_ws/build/serial
+[0.254s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.268s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.268s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.268s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.482s] [01m[K/home/john/robo_ws/src/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[0.482s] [01m[K/home/john/robo_ws/src/serial/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.482s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[0.482s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.482s] [01m[K/home/john/robo_ws/src/serial/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[0.482s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[0.482s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[0.484s] [01m[K/home/john/robo_ws/src/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[0.484s] [01m[K/home/john/robo_ws/src/serial/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.485s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[0.485s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[0.638s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[0.666s] [100%] Built target serial
+[0.675s] Invoked command in '/home/john/robo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/serial -- -j6 -l6
+[0.699s] Invoking command in '/home/john/robo_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/john/robo_ws/build/serial
+[0.705s] -- Install configuration: ""
+[0.705s] -- Installing: /home/john/robo_ws/install/serial/lib/libserial.a
+[0.705s] -- Up-to-date: /home/john/robo_ws/install/serial/include/
+[0.705s] -- Up-to-date: /home/john/robo_ws/install/serial/include//serial
+[0.705s] -- Up-to-date: /home/john/robo_ws/install/serial/include//serial/impl
+[0.705s] -- Up-to-date: /home/john/robo_ws/install/serial/include//serial/impl/unix.h
+[0.706s] -- Up-to-date: /home/john/robo_ws/install/serial/include//serial/impl/win.h
+[0.706s] -- Up-to-date: /home/john/robo_ws/install/serial/include//serial/serial.h
+[0.706s] -- Up-to-date: /home/john/robo_ws/install/serial/include//serial/v8stdint.h
+[0.706s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/environment/library_path.sh
+[0.706s] -- Installing: /home/john/robo_ws/install/serial/share/serial/environment/library_path.dsv
+[0.706s] -- Up-to-date: /home/john/robo_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.706s] -- Up-to-date: /home/john/robo_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.706s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.706s] -- Installing: /home/john/robo_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.706s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/environment/path.sh
+[0.706s] -- Installing: /home/john/robo_ws/install/serial/share/serial/environment/path.dsv
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/local_setup.bash
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/local_setup.sh
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/local_setup.zsh
+[0.707s] -- Installing: /home/john/robo_ws/install/serial/share/serial/local_setup.dsv
+[0.707s] -- Installing: /home/john/robo_ws/install/serial/share/serial/package.dsv
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/ament_index/resource_index/packages/serial
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.707s] -- Up-to-date: /home/john/robo_ws/install/serial/share/serial/package.xml
+[0.709s] Invoked command in '/home/john/robo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/john/robo_ws/build/serial

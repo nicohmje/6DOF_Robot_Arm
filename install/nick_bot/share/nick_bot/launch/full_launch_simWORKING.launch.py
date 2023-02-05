@@ -1,0 +1,1 @@
+/home/john/robo_ws/src/nick_bot/launch/full_launch_simWORKING.launch.py

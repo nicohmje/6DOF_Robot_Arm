@@ -1,0 +1,6 @@
+Invoking command in '/home/john/robo_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/john/robo_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/serial
+Invoked command in '/home/john/robo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/john/robo_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/serial
+Invoking command in '/home/john/robo_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/serial -- -j6 -l6
+Invoked command in '/home/john/robo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/robo_ws/build/serial -- -j6 -l6
+Invoking command in '/home/john/robo_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/john/robo_ws/build/serial
+Invoked command in '/home/john/robo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/john/robo_ws/build/serial
