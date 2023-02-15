@@ -1,1 +1,1 @@
-/home/john/robo_ws/install/serial:/opt/ros/humble
+/home/john/robo_ws/install/stepper_interface:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware:/opt/ros/humble

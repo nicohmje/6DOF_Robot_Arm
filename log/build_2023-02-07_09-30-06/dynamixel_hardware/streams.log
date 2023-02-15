@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/john/robo_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --build /home/john/robo_ws/build/dynamixel_hardware -- -j6 -l6
+[0.067s] [100%] Built target dynamixel_hardware
+[0.085s] Invoked command in '/home/john/robo_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --build /home/john/robo_ws/build/dynamixel_hardware -- -j6 -l6
+[0.115s] Invoking command in '/home/john/robo_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --install /home/john/robo_ws/build/dynamixel_hardware
+[0.121s] -- Install configuration: ""
+[0.122s] -- Execute custom install script
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware//dynamixel_hardware.xml
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/include/dynamixel_hardware/visiblity_control.h
+[0.122s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.sh
+[0.123s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.dsv
+[0.123s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware
+[0.123s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware
+[0.123s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.sh
+[0.123s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.dsv
+[0.123s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.sh
+[0.123s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.dsv
+[0.124s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.bash
+[0.124s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.sh
+[0.124s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.zsh
+[0.124s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.dsv
+[0.124s] -- Symlinking: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv
+[0.136s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/ament_index/resource_index/packages/dynamixel_hardware
+[0.137s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware
+[0.137s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.137s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.137s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.138s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig.cmake
+[0.138s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig-version.cmake
+[0.139s] -- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.xml
+[0.162s] Invoked command in '/home/john/robo_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --install /home/john/robo_ws/build/dynamixel_hardware

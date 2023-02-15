@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/john/robo_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --build /home/john/robo_ws/build/dynamixel_hardware -- -j6 -l6
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_hardware[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+[2.085s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.085s]                  from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:25[m[K:
+[2.085s] [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type dynamixel_hardware::DynamixelHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.085s] [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:283:73:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K[[m[K’ token
+[2.085s]   283 |     RCLCPP_INFO(rclcpp::get_logger(kDynamixelHardware), "%n", positions.[01;31m[K[[m[Ki]);
+[2.085s]       |                                                                         [01;31m[K^[m[K
+[2.612s] gmake[2]: *** [CMakeFiles/dynamixel_hardware.dir/build.make:76: CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o] Error 1
+[2.612s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_hardware.dir/all] Error 2
+[2.612s] gmake: *** [Makefile:146: all] Error 2
+[2.614s] Invoked command in '/home/john/robo_ws/build/dynamixel_hardware' returned '2': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --build /home/john/robo_ws/build/dynamixel_hardware -- -j6 -l6

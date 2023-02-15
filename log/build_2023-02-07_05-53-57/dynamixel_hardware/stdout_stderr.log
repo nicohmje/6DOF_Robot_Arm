@@ -1,0 +1,54 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:25[m[K:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type dynamixel_hardware::DynamixelHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:279:57:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kint*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  279 |     RCLCPP_INFO(rclcpp::get_logger(kDynamixelHardware), [01;35m[K"%s"[m[K, [32m[Kpositions.data()[m[K);
+      |                                                         [01;35m[K^~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                                                             [32m[K|[m[K
+      |                                                                             [32m[Kint*[m[K
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:279:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  279 |     RCLCPP_INFO(rclcpp::get_logger(kDynamixelHardware), "[01;36m[K%s[m[K", positions.data());
+      |                                                          [01;36m[K~^[m[K
+      |                                                           [01;36m[K|[m[K
+      |                                                           [01;36m[Kchar*[m[K
+      |                                                          [32m[K%n[m[K
+[100%] [32m[1mLinking CXX shared library libdynamixel_hardware.so[0m
+[100%] Built target dynamixel_hardware
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware//dynamixel_hardware.xml
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/include/dynamixel_hardware/visiblity_control.h
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.sh
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.dsv
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.sh
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.dsv
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.bash
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.sh
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.zsh
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.dsv
+-- Symlinking: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/ament_index/resource_index/packages/dynamixel_hardware
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig.cmake
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig-version.cmake
+-- Up-to-date symlink: /home/john/robo_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.xml

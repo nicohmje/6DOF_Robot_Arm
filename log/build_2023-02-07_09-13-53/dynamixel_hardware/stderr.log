@@ -1,0 +1,96 @@
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+  431 | [01;35m[K#[m[Kinclude "pluginlib/class_list_macros.hpp"
+      | [01;35m[K^[m[K
+[01m[Kcc1plus:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type dynamixel_hardware::DynamixelHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:283:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+  283 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(kDynamixelHardware), "%f", positions[i];
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/usr/include/console_bridge/console.h:82:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+   82 | [01;31m[Knamespace[m[K console_bridge
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/exceptions.hpp:40:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+   40 | [01;31m[Knamespace[m[K class_loader
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:43:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+   43 | [01;31m[Knamespace[m[K class_loader
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:67:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+   67 | [01;31m[Knamespace[m[K class_loader
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:59:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+   59 | [01;31m[Knamespace[m[K class_loader
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In constructor ‘[01m[Kdynamixel_hardware::DynamixelHardware::read(const rclcpp::Time&, const rclcpp::Duration&)::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kconsole_bridge[m[K’ has not been declared
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kconsole_bridge[m[K’ has not been declared
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass_loader[m[K’ has not been declared
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type dynamixel_hardware::DynamixelHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:282:41:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  282 |   for (uint i = 0; i < ids.size(); i++) [01;36m[K{[m[K
+      |                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:243:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  243 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:431[m[K:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K At global scope:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:433:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  433 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(dynamixel_hardware::DynamixelHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:28:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   28 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/dynamixel_hardware.dir/build.make:76: CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

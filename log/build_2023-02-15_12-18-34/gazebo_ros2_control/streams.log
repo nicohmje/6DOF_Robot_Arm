@@ -1,0 +1,119 @@
+[0.017s] Invoking command in '/home/john/robo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake /home/john/robo_ws/src/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/gazebo_ros2_control
+[0.034s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.169s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.182s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.184s] -- Found controller_manager: 2.20.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.220s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.224s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.232s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.903s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.905s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.015s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.636s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.669s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.701s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.704s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.710s] -- Searching for dependencies of ignition-math6
+[1.712s] -- Looking for OGRE...
+[1.717s] -- Found Ogre Ghadamon (1.9.0)
+[1.718s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.726s] -- Looking for OGRE_Paging...
+[1.726s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.727s] -- Looking for OGRE_Terrain...
+[1.727s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.727s] -- Looking for OGRE_Property...
+[1.727s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.727s] -- Looking for OGRE_RTShaderSystem...
+[1.727s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.727s] -- Looking for OGRE_Volume...
+[1.727s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.727s] -- Looking for OGRE_Overlay...
+[1.727s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.823s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.824s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.825s] -- Searching for dependencies of ignition-transport8
+[1.840s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.850s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.854s] -- Checking for module 'libzmq >= 4'
+[1.866s] --   Found libzmq , version 4.3.4
+[1.899s] -- Checking for module 'uuid'
+[1.909s] --   Found uuid, version 2.37.2
+[1.935s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.936s] -- Searching for dependencies of ignition-msgs5
+[1.953s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.959s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.960s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.960s] -- Searching for dependencies of ignition-common3
+[1.961s] -- Looking for dlfcn.h - found
+[1.961s] -- Looking for libdl - found
+[1.971s] -- Searching for <ignition-common3> component [graphics]
+[1.971s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.972s] -- Searching for dependencies of ignition-common3-graphics
+[1.972s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.973s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.974s] -- Searching for dependencies of ignition-fuel_tools4
+[2.008s] -- Checking for module 'jsoncpp'
+[2.019s] --   Found jsoncpp, version 1.9.5
+[2.049s] -- Checking for module 'libzip'
+[2.059s] --   Found libzip, version 1.7.3
+[2.085s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.086s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.086s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.089s] -- Gazebo version: 11.10
+[2.090s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.098s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[2.738s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.739s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.802s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.803s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.803s] -- Configured cppcheck include dirs: /home/john/robo_ws/src/gazebo_ros2_control/include
+[2.803s] -- Configured cppcheck exclude dirs and/or files: 
+[2.804s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.804s] -- Configured cpplint exclude dirs and/or files: 
+[2.805s] -- Added test 'lint_cmake' to check CMake code style
+[2.806s] -- Added test 'uncrustify' to check C / C++ code style
+[2.806s] -- Configured uncrustify additional arguments: 
+[2.806s] -- Added test 'xmllint' to check XML markup files
+[2.808s] -- Configuring done
+[2.897s] -- Generating done
+[2.899s] -- Build files have been written to: /home/john/robo_ws/build/gazebo_ros2_control
+[2.909s] Invoked command in '/home/john/robo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake /home/john/robo_ws/src/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/john/robo_ws/install/gazebo_ros2_control
+[2.911s] Invoking command in '/home/john/robo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --build /home/john/robo_ws/build/gazebo_ros2_control -- -j6 -l6
+[2.947s] [35m[1mConsolidate compiler generated dependencies of target gazebo_hardware_plugins[0m
+[2.947s] [35m[1mConsolidate compiler generated dependencies of target gazebo_ros2_control[0m
+[2.998s] [ 75%] Built target gazebo_ros2_control
+[2.998s] [100%] Built target gazebo_hardware_plugins
+[3.008s] Invoked command in '/home/john/robo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --build /home/john/robo_ws/build/gazebo_ros2_control -- -j6 -l6
+[3.036s] Invoking command in '/home/john/robo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --install /home/john/robo_ws/build/gazebo_ros2_control
+[3.043s] -- Install configuration: ""
+[3.043s] -- Execute custom install script
+[3.043s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[3.044s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[3.044s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[3.044s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[3.045s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[3.045s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[3.045s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[3.045s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[3.045s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[3.046s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[3.046s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[3.046s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[3.046s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[3.047s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[3.047s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[3.047s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[3.047s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[3.047s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[3.047s] -- Symlinking: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[3.055s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[3.056s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[3.056s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.056s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.056s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[3.056s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[3.057s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[3.057s] -- Up-to-date symlink: /home/john/robo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[3.060s] Invoked command in '/home/john/robo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/john/robo_ws/install/stepper_interface:/opt/ros/humble:/home/john/robo_ws/install/serial:/home/john/robo_ws/install/nick_bot_moveit_config:/home/john/robo_ws/install/nick_bot:/home/john/robo_ws/install/gazebo_ros2_control:/home/john/robo_ws/install/dynamixel_hardware /usr/bin/cmake --install /home/john/robo_ws/build/gazebo_ros2_control

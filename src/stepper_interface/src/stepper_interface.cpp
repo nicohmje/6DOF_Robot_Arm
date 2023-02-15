@@ -110,7 +110,7 @@ hardware_interface::CallbackReturn StepperInterface::on_configure(
 
     RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "Configured joint info...");
 
-    param_.s_p_a = {int(1600/(2*3.14159)), int(1600/(2*3.14159)), int(1600/(2*3.14159))};
+    param_.s_p_a = {int(13200/(2*3.14159)), int(8000/(2*3.14159)), int(13200/(2*3.14159))};
 
     RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "Configured steps per angle for 3 joints...");
 
@@ -205,7 +205,6 @@ double StepperInterface::calcSteps(double angle, int number) //DONE
 {
     //Converts angles into steps 
     //1 : base, 2:shoulder, 3:elbow
-    RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "angle %f", angle);
     int val = int(angle * param_.s_p_a[number]);
     if (angle != angle)
     { 
@@ -242,6 +241,8 @@ hardware_interface::return_type StepperInterface::read(
     for (uint i = 0; i < 3; i++)
     {
         hw_states_[i] = calcAngles(steps_[i], i);
+        RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "steps1  %i.", steps_[i]);
+        RCLCPP_INFO(rclcpp::get_logger("StepperInterface"), "steps1  %f.", calcAngles(steps_[i], i));
     }
 
     return hardware_interface::return_type::OK;

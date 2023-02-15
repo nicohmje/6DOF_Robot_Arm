@@ -1,0 +1,7 @@
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type dynamixel_hardware::DynamixelHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/john/robo_ws/src/dynamixel_hardware/dynamixel_hardware/src/dynamixel_hardware.cpp:284:37:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kuint[m[K’ {aka ‘[01m[Kunsigned int[m[K’})
+  284 |     joints_[i].state.position = (-1*[01;31m[K*i[m[K)*(positions[i] * ((2*3.14159)/4096));
+      |                                     [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/dynamixel_hardware.dir/build.make:76: CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
